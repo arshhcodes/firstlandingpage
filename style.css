@@ -50,12 +50,8 @@ a{
     padding:40px 5px;
 }
 .img{
-     flex:1;
-    
-    margin-left:250px;
-    
-
-    
+     flex:1;   
+    margin-left:250px;    
 }
 button{
     max-width: fit-content;
@@ -64,4 +60,53 @@ button{
     padding:10px 20px;
     border-radius: 5px;
     font-size: 15px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body>h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    padding:50px 0px 0px 0px;
+}
+.body-container{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    padding:0px 100px;
+    flex-wrap: wrap;
+    gap:15px;
+}
+.body-container>div{
+    flex: 1;
+}
+.main-img{
+    height:200px;
+    width:200px;
+    border: 2px solid rgb(35, 105, 185);
+    border-radius: 15px;
+    margin-left:90px;
+    margin-bottom:50px;
+}
+.body-container>div>p{
+    font-size: 18px;
+}
+.main-quote{
+    display: flex;
+    background-color:rgb(139, 137, 137);
+    height:200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    flex-direction: column;
+    flex:1;
+}
+.main-quote>p{
+    align-self:flex-end;
+    margin-right:500px;
+    font-size: 25px;
 }
