@@ -57,7 +57,8 @@ button{
     max-width: fit-content;
     background-color: rgb(35, 105, 185);
     color:white;
-    padding:10px 20px;
+    padding:10px 40px;
+    border:solid 1px white;
     border-radius: 5px;
     font-size: 15px;
 }
@@ -71,6 +72,7 @@ button{
     font-family: 'Abril Fatface', cursive;
     font-size: 40px;
     padding:50px 0px 0px 0px;
+    margin-top:100px;
 }
 .body-container{
     display: flex;
@@ -79,6 +81,7 @@ button{
     padding:0px 100px;
     flex-wrap: wrap;
     gap:15px;
+    margin-bottom:100px
 }
 .body-container>div{
     flex: 1;
@@ -96,17 +99,44 @@ button{
 }
 .main-quote{
     display: flex;
-    background-color:rgb(139, 137, 137);
+    background-color:rgb(199, 195, 195);
     height:200px;
     justify-content: center;
     align-items: center;
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
     flex-direction: column;
-    flex:1;
+    flex:0;
 }
 .main-quote>p{
     align-self:flex-end;
     margin-right:500px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bottom-board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:200px;
+    background-color: white;
+}
+.bottom-board-child{
+    background-color:  rgb(35, 105, 185);
+    font-size:20px;
+    color:white;
+    padding: 20px 100px;
+    border: solid 1px  rgb(35, 105, 185);
+    border-radius: 10px;
+    display: flex;
+    gap:20px;
+    font-family:'Times New Roman', Times, serif
+   
+}
+.div-button{
+    margin-top: 6px;
+}
+.bottom-board-child>div>h4{
     font-size: 25px;
 }
